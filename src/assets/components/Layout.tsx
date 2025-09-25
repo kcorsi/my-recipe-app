@@ -1,6 +1,8 @@
 import { Container } from "react-bootstrap";
 import Navbar from "./Navbar";
+import NewRecipeModal from "../components/NewRecipeModal";
 import { Outlet } from "react-router-dom";
+import { useState } from "react";
 
 // Layout component that wraps all pages
 // This component provides the common structure (navbar) for all pages
