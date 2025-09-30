@@ -45,7 +45,7 @@ function FavoritesPage() {
       try {
         // Make API call to get all recipes and filter for favorites
         const response = await fetch(
-          "https://68af8db1b91dfcdd62bc8eca.mockapi.io/recipes"
+          "https://68d4b69de29051d1c0abdfb0.mockapi.io/recipes"
         );
 
         if (!response.ok) {
@@ -78,7 +78,7 @@ function FavoritesPage() {
     try {
       // Make API call to update favorite status
       const response = await fetch(
-        `https://68af8db1b91dfcdd62bc8eca.mockapi.io/recipes/${recipeId}`,
+        `https://68d4b69de29051d1c0abdfb0.mockapi.io/recipes/${recipeId}`,
         {
           method: "PUT",
           headers: {

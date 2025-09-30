@@ -53,7 +53,7 @@ function NewRecipeModal({ show, onHide }: NewRecipeModalProps) {
     try {
       // Make API call to create new recipe
       const response = await fetch(
-        "https://68af8db1b91dfcdd62bc8eca.mockapi.io/recipes",
+        "https://68d4b69de29051d1c0abdfb0.mockapi.io/recipes",
         {
           method: "POST",
           headers: {

@@ -43,7 +43,9 @@ function HomePage() {
     const fetchFeaturedRecipes = async () => {
       try {
         // Make API call to get all recipes
-        const response = await fetch("http://localhost:3000/recipes");
+        const response = await fetch(
+          "https://68d4b69de29051d1c0abdfb0.mockapi.io/recipes"
+        );
 
         if (!response.ok) {
           throw new Error("Failed to fetch recipes");
@@ -73,7 +75,7 @@ function HomePage() {
     try {
       // Make API call to update favorite status
       const response = await fetch(
-        `http://localhost:3000/recipes/${recipeId}`,
+        `https://68d4b69de29051d1c0abdfb0.mockapi.io/recipes/${recipeId}`,
         {
           method: "PUT",
           headers: {
