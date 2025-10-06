@@ -20,7 +20,7 @@ export const router = createBrowserRouter([
       //Single recipe page
       { path: "recipes/:id", element: <SingleRecipePage /> },
       //Contacts page
-      { path: "contacts", element: <ContactsPage /> },
+      { path: "contact", element: <ContactsPage /> },
     ],
   },
 ]);

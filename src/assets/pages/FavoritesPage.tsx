@@ -167,7 +167,7 @@ function FavoritesPage() {
                   </div>
                   <h3 className="text-muted">No Favorite Recipes Yet</h3>
                   <p className="text-muted mb-4">
-                    Start exploring recipes and click the heart icon to add them
+                    Start exploring our recipes and click the heart icon to add them
                     to your favorites!
                   </p>
                   <a href="/recipes" className="btn btn-primary">

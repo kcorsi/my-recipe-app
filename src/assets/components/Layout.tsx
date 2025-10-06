@@ -18,7 +18,10 @@ function Layout() {
       <Navbar onNewRecipe={() => setShowNewRecipeModal(true)} />
 
       {/* Main content area - this is where pages render */}
-      <main className="main-content">
+      <main
+        className="main-content"
+        style={{ width: "100vw", display: "flex", justifyContent: "center" }}
+      >
         <Container>
           <Outlet />
         </Container>

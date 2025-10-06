@@ -147,8 +147,7 @@ function AllRecipesPage() {
                 <div className="text-center py-5">
                   <p className="text-muted">No recipes available yet.</p>
                   <p className="text-muted">
-                    Use the "New Recipe" button in the navbar to create your
-                    first recipe!
+                    Use the "New Recipe" button in the navbar to add your first recipe to your box!
                   </p>
                 </div>
               )}

@@ -111,10 +111,10 @@ function HomePage() {
         <Col>
           <Card className="text-center bg-primary text-white">
             <Card.Body className="py-5">
-              <h1 className="display-4 mb-3">🍳 Welcome to Recipe Manager</h1>
+              <h1 className="display-4 mb-3">🍳 Welcome to K and B's Recipe Box</h1>
               <p className="lead mb-4">
                 Discover, create, and organize your favorite recipes in one
-                place. From quick weeknight dinners to elaborate weekend feasts,
+                place. From quick breakfast recipes to family dinners,
                 we've got you covered with our collection of delicious recipes.
               </p>
               <Link to="/recipes" className="btn btn-light btn-lg">
@@ -169,7 +169,7 @@ function HomePage() {
       {/* Features section */}
       <Row className="mb-5">
         <Col>
-          <h2 className="mb-4">Why Choose Recipe Manager?</h2>
+          <h2 className="mb-4">Why Choose K and B's Recipe Box?</h2>
           <Row xs={1} md={3} className="g-4">
             <Col>
               <Card className="h-100 text-center">
