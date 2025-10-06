@@ -119,9 +119,9 @@ function FavoritesPage() {
       {/* Page header */}
       <Row className="mb-4">
         <Col>
-          <h1 className="mb-3">❤️ My Favorite Recipes</h1>
+          <h1 className="mb-3">My Favorite Recipes</h1>
           <p className="text-muted">
-            Your collection of favorite recipes. Click the heart icon to remove
+            Your collection of favorite recipes. Click the ❤️ icon to remove
             recipes from favorites.
           </p>
         </Col>
@@ -167,8 +167,8 @@ function FavoritesPage() {
                   </div>
                   <h3 className="text-muted">No Favorite Recipes Yet</h3>
                   <p className="text-muted mb-4">
-                    Start exploring our recipes and click the heart icon to add them
-                    to your favorites!
+                    Start exploring our recipes and click the heart icon to add
+                    them to your favorites!
                   </p>
                   <a href="/recipes" className="btn btn-primary">
                     Browse All Recipes

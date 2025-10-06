@@ -106,7 +106,7 @@ function RecipeCard({
           </Badge>
 
           {/* Servings badge */}
-          <Badge bg="info" className="d-flex align-items-center gap-1">
+          <Badge bg="dark" className="d-flex align-items-center gap-1">
             <FaUsers />
             {recipe.servings || 0} servings
           </Badge>
@@ -118,7 +118,7 @@ function RecipeCard({
           {showViewMore && (
             <Link
               to={`/recipes/${recipe.id}`}
-              className="btn btn-outline-primary btn-sm flex-grow-1"
+              className="btn btn-outline-danger btn-sm flex-grow-1"
             >
               View More
             </Link>

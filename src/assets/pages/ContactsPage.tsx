@@ -25,8 +25,8 @@ function ContactPage() {
         <Col>
           <h1 className="mb-3">Contact Us</h1>
           <p className="lead text-muted">
-            Have questions about K and B's Recipe Box? We'd love to hear from
-            you!
+            Have questions about <em>K and B's Recipe Box</em>? We'd love to
+            hear from you!
           </p>
         </Col>
       </Row>
@@ -92,23 +92,26 @@ function ContactPage() {
         <Col lg={8}>
           <Card>
             <Card.Body>
-              <h2 className="mb-4">About K and B's Recipe Box</h2>
+              <h2 className="mb-4">
+                About <em>K and B's Recipe Box</em>
+              </h2>
               <p>
-                K and B's Recipe Box is a blend of modern web application and
-                the love of cooking with family. It is designed to help you
-                organize, create, and discover delicious recipes. Whether you're
-                a seasoned chef or just starting your culinary journey, our
-                platform provides the tools you need to manage your recipe
-                collection effectively. Keeping track of recipes, especially
-                often used ones, is a great way to create a legacy of flavor in
-                your family.
+                <em>K and B's Recipe Box</em> is a blend of modern web
+                application and the love of cooking with family. It is designed
+                to help you organize, create, and discover delicious recipes.
+                Whether you're a seasoned chef or just starting your culinary
+                journey, our platform provides the tools you need to manage your
+                recipe collection effectively. Keeping track of recipes,
+                especially often used ones, is a great way to create a legacy of
+                flavor in your family.
               </p>
               <p>
-                Built with React, TypeScript, and modern web technologies, K and
-                B's Recipe Box offers a responsive design that works seamlessly
-                across all devices. Our intuitive interface starts you with our
-                family meal favorites, makes it easy to add new recipes, mark
-                favorites, and share your culinary creations with others.
+                Built with React, TypeScript, and modern web technologies,{" "}
+                <em>K and B's Recipe Box</em> offers a responsive design that
+                works seamlessly across all devices. Our intuitive interface
+                starts you with our family meal favorites, makes it easy to add
+                new recipes, mark favorites, and share your culinary creations
+                with others.
               </p>
               <p>
                 This project was created as a learning tool for beginner

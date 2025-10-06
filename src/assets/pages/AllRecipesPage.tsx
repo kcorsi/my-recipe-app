@@ -107,7 +107,7 @@ function AllRecipesPage() {
         <Col>
           <h1 className="mb-3">All Recipes</h1>
           <p className="text-muted">
-            Browse through our collection of delicious recipes. Click the heart
+            Browse through our collection of delicious recipes. Click the ❤️
             icon to mark your favorites!
           </p>
         </Col>
@@ -147,7 +147,8 @@ function AllRecipesPage() {
                 <div className="text-center py-5">
                   <p className="text-muted">No recipes available yet.</p>
                   <p className="text-muted">
-                    Use the "New Recipe" button in the navbar to add your first recipe to your box!
+                    Use the "New Recipe" button in the navbar to add your first
+                    recipe to your box!
                   </p>
                 </div>
               )}

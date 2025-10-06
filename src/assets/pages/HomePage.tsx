@@ -109,15 +109,17 @@ function HomePage() {
       {/* Hero section with welcome message */}
       <Row className="mb-5">
         <Col>
-          <Card className="text-center bg-primary text-white">
+          <Card className="text-center bg-secondary text-white">
             <Card.Body className="py-5">
-              <h1 className="display-4 mb-3">🍳 Welcome to K and B's Recipe Box</h1>
+              <h1 className="display-4 mb-3">
+                Welcome to <em>K and B's Recipe Box</em>
+              </h1>
               <p className="lead mb-4">
                 Discover, create, and organize your favorite recipes in one
-                place. From quick breakfast recipes to family dinners,
-                we've got you covered with our collection of delicious recipes.
+                place. From quick breakfast recipes to family dinners, we've got
+                you covered with our collection of delicious recipes.
               </p>
-              <Link to="/recipes" className="btn btn-light btn-lg">
+              <Link to="/recipes" className="btn btn-danger btn-lg">
                 Explore All Recipes
               </Link>
             </Card.Body>
@@ -169,12 +171,14 @@ function HomePage() {
       {/* Features section */}
       <Row className="mb-5">
         <Col>
-          <h2 className="mb-4">Why Choose K and B's Recipe Box?</h2>
+          <h2 className="mb-4">
+            Why Choose <em>K and B's Recipe Box</em>?
+          </h2>
           <Row xs={1} md={3} className="g-4">
             <Col>
-              <Card className="h-100 text-center">
+              <Card className="h-100 border-danger text-center">
                 <Card.Body>
-                  <h3 className="h5">📝 Easy Recipe Creation</h3>
+                  <h3 className="h5">Easy Recipe Creation</h3>
                   <p className="text-muted">
                     Create and save your favorite recipes with our simple form.
                     Add ingredients, instructions, and cooking times in minutes.
@@ -183,9 +187,9 @@ function HomePage() {
               </Card>
             </Col>
             <Col>
-              <Card className="h-100 text-center">
+              <Card className="h-100 border-danger text-center">
                 <Card.Body>
-                  <h3 className="h5">❤️ Favorite Recipes</h3>
+                  <h3 className="h5">Favorite Recipes</h3>
                   <p className="text-muted">
                     Mark your favorite recipes with a heart icon. Quickly find
                     and access your most-loved dishes.
@@ -194,9 +198,9 @@ function HomePage() {
               </Card>
             </Col>
             <Col>
-              <Card className="h-100 text-center">
+              <Card className="h-100 border-danger text-center">
                 <Card.Body>
-                  <h3 className="h5">📱 Responsive Design</h3>
+                  <h3 className="h5">Responsive Design</h3>
                   <p className="text-muted">
                     Access your recipes on any device. Our app works perfectly
                     on desktop, tablet, and mobile.

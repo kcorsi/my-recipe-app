@@ -1,5 +1,5 @@
 //export default function Navbar() {
-  //return <div>Navbar</div>;
+//return <div>Navbar</div>;
 //}
 
 // Import React Bootstrap components for styling
@@ -33,7 +33,7 @@ function Navbar({ onNewRecipe }: NavbarProps) {
       <Container>
         {/* Brand/logo that links to home page */}
         <BootstrapNavbar.Brand as={Link} to="/">
-          🍳 Recipe Manager
+          K and B's Recipe Box
         </BootstrapNavbar.Brand>
 
         {/* Hamburger menu button for mobile devices */}
@@ -63,7 +63,7 @@ function Navbar({ onNewRecipe }: NavbarProps) {
               to="/favorites"
               active={location.pathname === "/favorites"}
             >
-              ❤️ Favorites
+              Favorites
             </Nav.Link>
 
             {/* Contact link - active when we're on the contact page */}
@@ -78,7 +78,7 @@ function Navbar({ onNewRecipe }: NavbarProps) {
 
           {/* Right side - New Recipe button */}
           <Button
-            variant="success"
+            variant="danger"
             onClick={onNewRecipe}
             className="d-flex align-items-center gap-2"
           >
